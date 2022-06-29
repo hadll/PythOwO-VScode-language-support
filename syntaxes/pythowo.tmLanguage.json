@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "PythOwO",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#punctuation"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.pythowo",
+				"match": "\\b(IF|WHILE|FOR|WETURN|THWEN|EWIF|EWSE)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.pythowo",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pythowo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"declaration": {
+			"patterns": [
+				{
+					"name": "keyword.control.pythowo",
+					"match": "\\b(pwease)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.pyowo"
+}

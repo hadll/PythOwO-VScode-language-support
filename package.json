@@ -1,0 +1,25 @@
+{
+    "name": "pyowo",
+    "displayName": "PyOwO",
+    "description": "Language support for .pyowo files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pythowo",
+            "aliases": ["PythOwO", "pythowo", "pyowo", "PyOwO"],
+            "extensions": [".pyowo"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pythowo",
+            "scopeName": "source.pyowo",
+            "path": "./syntaxes/pythowo.tmLanguage.json"
+        }]
+    }
+}
