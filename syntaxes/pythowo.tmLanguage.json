@@ -9,14 +9,95 @@
 			"include": "#strings"
 		},
 		{
+			"include": "#comments"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#builtins"
+		},
+		{
 			"include": "#punctuation"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#classes"
+		},
+		{
+			"include": "#namespaces"
+		},
+		{
+			"include": "#methods"
+		},
+		{
+			"include": "#attributes"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#statements"
+		},
+		{
+			"include": "#expressions"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#punctuation"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#classes"
+		},
+		{
+			"include": "#namespaces"
+		},
+		{
+			"include": "#methods"
+		},
+		{
+			"include": "#attributes"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#statements"
+		},
+		{
+			"include": "#expressions"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#punctuation"
+		},
+		{
+			"include": "#constants"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.pythowo",
-				"match": "\\b(IF|WHILE|FOR|WETURN|THWEN|EWIF|EWSE)\\b"
+				"match": "\\b(IF|WHILE|FOR|WETURN|THWEN|EWIF|EWSE|AND|OR|NOT|TO|STWEP|END|CONTINUWU|BWEAK)\\b"
 			}]
 		},
 		"strings": {
@@ -30,13 +111,43 @@
 				}
 			]
 		},
-		"declaration": {
-			"patterns": [
-				{
-					"name": "keyword.control.pythowo",
-					"match": "\\b(pwease)\\b"
-				}
-			]
+		"comments": {
+			"patterns": [{
+				"name":"comment.line.pyowo",
+				"begin": "#",
+				"end": "$\\n?"
+			}]
+		},
+		"numbers":{
+			"patterns": [{
+				"name": "constant.numeric.pythowo",
+				"match": "\\b(0x[0-9a-fA-F]+|[0-9]+(\\.[0-9]*)?|\\.[0-9]+)\\b"
+			}]
+		},
+		"functions": {
+			"patterns": [{
+				"name": "entity.name.function.pythowo",
+				"begin": "\\b(FWUNCTION)\\b",
+				"end": "\\>"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.other.pythowo",
+				"match": "\\b(pwease)\\b"
+			}]
+		},
+		"builtins":{
+			"patterns": [{
+				"name": "support.function.pythowo",
+				"match": "\\b(pwint|pwint\\_ret|inpwt|inpwt\\_ret|cwear|cls|is\\_nwm|is\\_stwr|is\\_wist|is\\_fwn|appwend|pwp|extwend|lwen|rwun)\\b"
+			}]
+		},
+		"constants":{
+			"patterns": [{
+				"name": "constant.language.pythowo",
+				"match": "\\b(twue|fawse|nwull|mwath_pwi)\\b"
+			}]
 		}
 	},
 	"scopeName": "source.pyowo"
