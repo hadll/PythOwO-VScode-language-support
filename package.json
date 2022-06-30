@@ -7,7 +7,7 @@
         "vscode": "^1.68.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages", ""
     ],
     "contributes": {
         "languages": [{
@@ -20,6 +20,12 @@
             "language": "pythowo",
             "scopeName": "source.pyowo",
             "path": "./syntaxes/pythowo.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "pythowo",
+                "path": "./snippets/pythowo-snippets.json"
+            }
+        ]
     }
 }

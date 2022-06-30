@@ -128,7 +128,7 @@
 			"patterns": [{
 				"name": "entity.name.function.pythowo",
 				"begin": "\\b(FWUNCTION)\\b",
-				"end": "\\>"
+				"end": "\\-\\>"
 			}]
 		},
 		"variables": {
@@ -140,7 +140,7 @@
 		"builtins":{
 			"patterns": [{
 				"name": "support.function.pythowo",
-				"match": "\\b(pwint|pwint\\_ret|inpwt|inpwt\\_ret|cwear|cls|is\\_nwm|is\\_stwr|is\\_wist|is\\_fwn|appwend|pwp|extwend|lwen|rwun)\\b"
+				"match": "\\b(pwint|pwint\\_ret|inpwt|inpwt\\_int|cwear|cls|is\\_nwm|is\\_stwr|is\\_wist|is\\_fwn|appwend|pwp|extwend|lwen|rwun)\\b"
 			}]
 		},
 		"constants":{

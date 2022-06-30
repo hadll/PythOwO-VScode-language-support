@@ -1,0 +1,228 @@
+{
+	"Print a string": {
+		"prefix": "pwint",
+		"body": [
+			"pwint($0)"
+		],
+		"description": "Print a string to the shell"
+	},
+    "Print ret": {
+		"prefix": "pwint_ret",
+		"body": [
+			"pwint_ret($0)"
+		],
+		"description": "description needed"
+	},
+    "input": {
+		"prefix": "inpwt",
+		"body": [
+			"inpwt($0)"
+		],
+		"description": "Requests input from the user and returns it as a string"
+	},
+    "input int": {
+		"prefix": "inpwt_int",
+		"body": [
+			"inpwt_int($0)"
+		],
+		"description": "Requests input from the user and returns it as an integer"
+	},
+    "Clear": {
+		"prefix": "cls",
+		"body": [
+			"cls()"
+		],
+		"description": "Clear the shell"
+	},
+    "Cls": {
+		"prefix": "cwear",
+		"body": [
+			"cwear()"
+		],
+		"description": "Clear the shell"
+	},
+    "is nwm": {
+		"prefix": "is_nwm",
+		"body": [
+			"is_nwm($0)"
+		],
+		"description": "Tests if the argument is a number"
+	},
+    "is str": {
+		"prefix": "is_stwr",
+		"body": [
+			"is_stwr($0)"
+		],
+		"description": "Tests if the argument is a string"
+	},
+    "is list": {
+		"prefix": "is_wist",
+		"body": [
+			"is_wist($0)"
+		],
+		"description": "Tests if the argument is a list"
+	},
+    "is function": {
+		"prefix": "is_fwn",
+		"body": [
+			"is_fwn($0)"
+		],
+		"description": "Tests if the argument is a function"
+	},
+    "append": {
+		"prefix": "appwend",
+		"body": [
+			"appwend($0)"
+		],
+		"description": "Adds an element to the end of a list"
+	},
+    "pop": {
+		"prefix": "pwp",
+		"body": [
+			"pwp($0)"
+		],
+		"description": "Removes the item at the given list index"
+	},
+    "extend": {
+		"prefix": "extwend",
+		"body": [
+			"extwend($0)"
+		],
+		"description": "Adds a list to the end of another list"
+	},
+    "len": {
+		"prefix": "lwen",
+		"body": [
+			"lwen($0)"
+		],
+		"description": "Returns the length of a indexable object"
+	},
+    "run": {
+		"prefix": "rwun",
+		"body": [
+			"rwun($0)"
+		],
+		"description": "description needed"
+	},
+    "null": {
+		"prefix": "nwull",
+		"body": [
+			"nwull"
+		]
+	},
+    "false": {
+		"prefix": "fawse",
+		"body": [
+			"fawse"
+		]
+	},
+    "true": {
+		"prefix": "twue",
+		"body": [
+			"twue"
+		]
+	},
+    "pi": {
+		"prefix": "mwath_pwi",
+		"body": [
+			"mwath_pwi"
+		]
+	},
+    "if": {
+		"prefix": "if",
+		"body": [
+			"IF $0 THWEN"
+		]
+	},
+    "elif": {
+		"prefix": "elif",
+		"body": [
+			"EWIF $0 THWEN"
+		]
+	},
+    "for": {
+		"prefix": "for",
+		"body": [
+			"FOR $0 TO THWEN"
+		]
+	},
+    "else": {
+		"prefix": "else",
+		"body": [
+			"EWSE $0"
+		]
+	},
+    "while": {
+		"prefix": "while",
+		"body": [
+			"WHILE $0"
+		]
+	},
+    "end": {
+		"prefix": "end",
+		"body": [
+			"END"
+		]
+	},
+    "let": {
+		"prefix": "pwease",
+		"body": [
+			"pwease $0"
+		],
+        "description": "Declares a variable"
+	},
+    "and": {
+		"prefix": "and",
+		"body": [
+			"AND $0"
+		]
+	},
+    "or": {
+		"prefix": "or",
+		"body": [
+			"OR $0"
+		]
+	},
+    "not": {
+		"prefix": "not",
+		"body": [
+			"NOT $0"
+		]
+	},
+    "to": {
+		"prefix": "to",
+		"body": [
+			"TO $0"
+		]
+	},
+    "step": {
+		"prefix": "stwep",
+		"body": [
+			"STWEP $0"
+		]
+	},
+    "return": {
+		"prefix": "return",
+		"body": [
+			"WETURN$0"
+		]
+	},
+    "continue": {
+		"prefix": "continue",
+		"body": [
+			"CONTINUWU$0"
+		]
+	},
+    "break": {
+		"prefix": "break",
+		"body": [
+			"BWEAK$0"
+		]
+	},
+    "function": {
+		"prefix": "function",
+		"body": [
+			"FWUNCTION $0 -> "
+		]
+	}
+}
