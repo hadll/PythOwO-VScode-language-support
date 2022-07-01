@@ -7,7 +7,7 @@ Simple syntax highlighting and code snippets for Pythowo
 
 
 ![Syntax highlighting](Images/highlighting.png)
-\!\[Syntax snippets\]\(Images/snippets.gif\)
+![Syntax snippets](Images/snippets.gif)
 
 ## Requirements
 
