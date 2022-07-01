@@ -7,14 +7,18 @@
         "vscode": "^1.68.0"
     },
     "categories": [
-        "Programming Languages", ""
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
             "id": "pythowo",
             "aliases": ["PythOwO", "pythowo", "pyowo", "PyOwO"],
             "extensions": [".pyowo"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "light": "Images/pythowo-logo.svg",
+                "dark": "Images/pythowo-logo.svg"
+            }
         }],
         "grammars": [{
             "language": "pythowo",
