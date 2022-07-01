@@ -1,5 +1,5 @@
 {
-	"Print a string": {
+	"Print": {
 		"prefix": "pwint",
 		"body": [
 			"pwint($0)"
@@ -13,17 +13,17 @@
 		],
 		"description": "description needed"
 	},
-    "input": {
+    "input string": {
 		"prefix": "inpwt",
 		"body": [
-			"inpwt($0)"
+			"inpwt()$0"
 		],
 		"description": "Requests input from the user and returns it as a string"
 	},
     "input int": {
 		"prefix": "inpwt_int",
 		"body": [
-			"inpwt_int($0)"
+			"inpwt_int()$0"
 		],
 		"description": "Requests input from the user and returns it as an integer"
 	},
@@ -41,7 +41,7 @@
 		],
 		"description": "Clear the shell"
 	},
-    "is nwm": {
+    "is num": {
 		"prefix": "is_nwm",
 		"body": [
 			"is_nwm($0)"
@@ -164,7 +164,7 @@
 			"END"
 		]
 	},
-    "let": {
+    "variable declaration": {
 		"prefix": "pwease",
 		"body": [
 			"pwease $0"
