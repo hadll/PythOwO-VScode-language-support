@@ -16,8 +16,8 @@
             "extensions": [".pyowo"],
             "configuration": "./language-configuration.json",
             "icon": {
-                "light": "Images/pythowo-logo.svg",
-                "dark": "Images/pythowo-logo.svg"
+                "light": "Images/pythowo-logo.png",
+                "dark": "Images/pythowo-logo.png"
             }
         }],
         "grammars": [{
