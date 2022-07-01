@@ -5,8 +5,9 @@ Simple syntax highlighting and code snippets for Pythowo
 
 ## Features
 
-
+# Syntax Highlighting
 ![Syntax highlighting](Images/highlighting.png)
+# Code Snippets
 ![Syntax snippets](Images/snippets.gif)
 
 ## Requirements
