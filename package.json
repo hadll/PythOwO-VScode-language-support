@@ -2,7 +2,8 @@
     "name": "pyowo",
     "displayName": "PyOwO",
     "description": "Language support for .pyowo files",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "icon": "Images/pythowo-logo-128.png",
     "engines": {
         "vscode": "^1.68.0"
     },
